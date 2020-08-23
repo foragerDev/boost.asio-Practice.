@@ -18,9 +18,21 @@
     <ClInclude Include="client.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sync_tcp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceptor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sever.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="run_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
